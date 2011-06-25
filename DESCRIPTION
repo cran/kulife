@@ -1,5 +1,5 @@
 Package: kulife
-Version: 0.1-5
+Version: 0.1-6
 Title: Data sets and functions from the Faculty of Life Sciences,
         University of Copenhagen
 Author: Claus Ekstrom <ekstrom@life.ku.dk>, Ib M. Skovgaard
@@ -9,6 +9,6 @@ Enhances: XML
 Description: Provides various functions and data sets from experiments
         at the Faculty of Life Sciences, University of Copenhagen
 License: GPL-2
-Packaged: 2011-04-11 19:17:53 UTC; claus
+Packaged: 2011-06-25 23:32:25 UTC; claus
 Repository: CRAN
-Date/Publication: 2011-04-12 06:22:23
+Date/Publication: 2011-06-26 05:25:08
