@@ -5,6 +5,7 @@ rootonorm <- function(x, breaks="Sturges",
                       linecol="red", rectcol="lightgrey",
                       xlab=xname,
                       ylab="Sqrt(frequency)",
+                      yaxt="n",                      
                       ylim=NULL,
                       mu=mean(x), s=sd(x),
                       gap=0.1, ...) {
@@ -52,7 +53,7 @@ rootonorm <- function(x, breaks="Sturges",
   plot(z, z, type="n",
        xlab=xlab,
        ylab=ylab,
-       yaxt="n",
+       yaxt=yaxt,
        ylim=ylim,
        ...)
 
@@ -73,5 +74,6 @@ rootonorm <- function(x, breaks="Sturges",
   if (zeroline) {
     abline(h=0, lty=3)
   }
-  return(h$counts)
+
+  invisible(h$counts)
 }

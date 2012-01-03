@@ -51,7 +51,7 @@ Claus Ekstrom \email{ekstrom@life.ku.dk}
 %% ~Make other sections like Warning with \section{Warning }{....} ~
 
 \seealso{
-\code{\link{approxfun}} and \code{\link{integrate}}
+\code{\link{approx}}
 }
 \examples{
 x <- 1:4

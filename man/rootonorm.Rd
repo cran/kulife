@@ -12,7 +12,8 @@ Hanging rootogram for normal distribution
 rootonorm(x, breaks = "Sturges", type = c("hanging", "deviation"),
 scale = c("sqrt", "raw"), zeroline = TRUE,
 linecol = "red", rectcol = "lightgrey",
-xlab = xname, ylab = "Sqrt(frequency)", ylim = NULL,
+xlab = xname, ylab = "Sqrt(frequency)",
+yaxt = "n", ylim = NULL,
 mu = mean(x), s = sd(x), gap = 0.1, ...)
 }
 %- maybe also 'usage' for other objects documented here.
@@ -47,7 +48,11 @@ mu = mean(x), s = sd(x), gap = 0.1, ...)
 \item{xlab, ylab}{
   plot labels.  The \code{xlab} and \code{ylab} refer to the x
           and y axes respectively
+	}
+\item{yaxt}{
+  Should y axis text be printed. Defaults to \code{n}.
 }
+
 \item{ylim}{
   the range of y values with sensible defaults.
 }
