@@ -1,9 +1,10 @@
 write.xml <- function(data, file=NULL) {
-#  require(XML)
+  if (!require(XML))
+    stop("package XML must be installed")
 
   # Check that packages is available
-  if (! "XML" %in% row.names(installed.packages()) )
-    stop("package XML must be installed")
+#  if (! "XML" %in% row.names(installed.packages()) )
+#    stop("package XML must be installed")
 
   if(is.null(file))
     stop("filename not specified")
