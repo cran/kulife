@@ -1,9 +1,9 @@
-f110e69e25f2fb809895beb2faf1c4e5 *DESCRIPTION
+e92460be45962bfb6bd5901f4c4460cf *DESCRIPTION
 012592abf4b40a8d741b299df2ded05a *NAMESPACE
 ae8767b76db718f454797fe5ec9ec27e *R/auc.r
 c98b6bef96d09127634f69b61fe2f046 *R/kulife.colors.R
 b41ee38837dcd467c394e65f278b2d54 *R/rootonorm.r
-e4d9889caa5c7b3f14f782984c0167de *R/writexml.R
+4a2392fead898044d76f7869a3cbcf7f *R/writexml.R
 a314b4fc2c81ca36a4322c5d075a3e2d *build/qpcr.r
 f247cc775f2e4211131842bbe2b61f40 *build/qpcr.xls
 d607a4136efa18efa85a37e033f49701 *data/bees.rda
@@ -19,7 +19,7 @@ de4a9f6929662f1114e7bba27746b5cb *data/rainman.rda
 e53db053888ebe1dece0b1cf8195b759 *man/greenland.Rd
 3203f8b8c8cb9afdbd5fe64b0e47eb22 *man/kulife.colors.Rd
 0a42c00ae1587f29cfec15ca8d9e2d37 *man/qpcr.Rd
-15bcf9bc3364c9a15167b6aa16090065 *man/rainman.Rd
+bd71d3760238aaec8fbc6f3be1241a69 *man/rainman.Rd
 db393ad74310a0b330b9c2085c0a080f *man/rootonorm.Rd
 f83fa0eb42f58ce8165517040787baf6 *man/superroot2.Rd
 0cfc4a050c49393a1156874e4874c1bb *man/write.xml.Rd
